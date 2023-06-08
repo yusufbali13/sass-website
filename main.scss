@@ -1,0 +1,17 @@
+//* Abstracts
+@import "./scss/abstracts/mixin";
+@import "./scss/abstracts/variables";
+
+//* Base
+@import "./scss/base/reset";
+
+//* Components
+@import "./scss/components/footer";
+@import "./scss/components/navbar";
+@import "./scss/components/responsive";
+
+//* Sections
+@import "./scss/sections/about";
+@import "./scss/sections/destination";
+@import "./scss/sections/guide";
+@import "./scss/sections/home";
