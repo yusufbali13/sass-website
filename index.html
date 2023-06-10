@@ -10,13 +10,55 @@
       <img src="./assets/Clarusway_Logo.png" alt="" class="header__logo" />
       <i class="fa-solid fa-bars fa-2x"></i>
       <ul class="header__links">
-        <li><button>Home</button></li>
-        <li><button>Destinations</button></li>
-        <li><button>About</button></li>
-        <li><button>Partner</button></li>
-        <li><button>Login</button></li>
-        <li><button>Register</button></li>
+        <li><button class="header__links--home">Home</button></li>
+        <li>
+          <button disabled class="header__links--disabled">Destination</button>
+        </li>
+        <li><button disabled class="header__links--disabled">About</button></li>
+        <li>
+          <button disabled class="header__links--disabled">Partner</button>
+        </li>
+        <li><button class="header__links--login">Login</button></li>
+        <li><button class="header__links--register">Register</button></li>
       </ul>
     </nav>
+    <main>
+      <!-- home -->
+      <section class="home">
+        <div class="home__form">
+          <h2>Explore Travel</h2>
+          <h3>Holiday Finder</h3>
+          <hr />
+          <form action="">
+            <select name="" id="">
+              <option value="">Location</option></select
+            ><select name="" id="">
+              <option value="">Activity</option></select
+            ><select name="" id="">
+              <option value="">Grade</option></select
+            ><select name="" id="">
+              <option value="">Date</option>
+            </select>
+          </form>
+          <button class="home__form--button">Explore</button>
+        </div>
+        <div class="home__image"></div>
+      </section>
+
+      <!-- About -->
+
+      <section class="about">
+        <div class="about__image"></div>
+        <div class="about__text">
+          <h2 class="about__text--header">A new way to explore the world</h2>
+          <p class="about__text--paragraph">
+            For decades travellers have reached for Lonely Planet books when
+            looking to plan and execute their perfect trip, but now, they can
+            also let Lonely Planet Experiences lead the way.
+          </p>
+          <button class="about__text--button"></button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
