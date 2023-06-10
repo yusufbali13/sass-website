@@ -1,16 +1,13 @@
-@import "./base/reset";
-@import "./abstracts/variables", "./abstracts/mixin";
-
-@import "./components/footer", "./components/navbar", "./components/responsive";
-
-@import "./sections/home", "./sections/about", "./sections/destination",
-  "./sections/guide";
-
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Playfair+Display&family=Rampart+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  background-color: $mainColor;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -18,3 +15,5 @@ button,
 i {
   cursor: pointer;
 }
+
+/*# sourceMappingURL=style.css.map */
