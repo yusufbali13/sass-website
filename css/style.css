@@ -27,7 +27,7 @@
 .header__links li {
   padding-right: 0.5rem;
 }
-.header__links--home {
+.header__links--home, .header__links--disabled {
   color: #202336;
   border: none;
   background-color: #ffffff;
@@ -36,6 +36,34 @@
   font-weight: 500;
   font-size: 1rem;
   line-height: 19px;
+}
+.header__links--disabled {
+  color: #b8becd;
+  font-weight: 400;
+}
+.header__links--login, .header__links--register {
+  background-color: #ffffff;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #fb8f1d;
+  width: 90px;
+}
+.header__links--register {
+  border: none;
+  background-color: #fb8f1d;
+  color: #ffffff;
+}
+
+.home {
+  margin: 1rem auto;
+  width: 90%;
+  min-height: 40vh;
+  gap: 2rem;
 }
 
 body {

@@ -29,5 +29,25 @@
       //   line-height: 19px;
       @include fontMix(Inter, normal, 500, 1rem, 19px);
     }
+    &--disabled {
+      //   @include fontMix(Inter, normal, 400, 1rem, 19px);
+      @extend .header__links--home;
+      color: #b8becd;
+      font-weight: 400;
+    }
+    &--login {
+      background-color: $mainColor;
+      border: 1px solid $btnBorderColor;
+      border-radius: 8px;
+      @include fontMix(Inter, normal, 500, 1rem, 30px);
+      color: $btnColor;
+      width: 90px;
+    }
+    &--register {
+      @extend .header__links--login;
+      border: none;
+      background-color: $btnColor;
+      color: $mainColor;
+    }
   }
 }
