@@ -8,7 +8,7 @@
 }
 
 .footer {
-  background-color: #f9f9fb;
+  background-color: darkslategray;
   height: 10vh;
   margin: auto;
   display: flex;
@@ -20,35 +20,35 @@
   transition: color 1s;
 }
 .footer__icons .social1:hover {
-  color: rgb(47, 190, 95);
+  color: rgb(62, 152, 92);
 }
 .footer__icons .social2 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social2:hover {
-  color: rgb(47, 190, 95);
+  color: rgb(62, 152, 92);
 }
 .footer__icons .social3 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social3:hover {
-  color: rgb(47, 190, 95);
+  color: rgb(62, 152, 92);
 }
 .footer__icons .social4 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social4:hover {
-  color: rgb(47, 190, 95);
+  color: rgb(62, 152, 92);
 }
 .footer__icons .social5 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social5:hover {
-  color: rgb(47, 190, 95);
+  color: rgb(62, 152, 92);
 }
 
 .header {
@@ -78,7 +78,7 @@
   border: none;
   padding: 0.4rem;
   border-radius: 6px;
-  background-color: rgb(47, 190, 95);
+  background-color: rgb(62, 152, 92);
   color: white;
   width: 5rem;
 }
@@ -86,7 +86,7 @@
   border: none;
   padding: 0.4rem;
   border-radius: 6px;
-  background-color: rgb(47, 190, 95);
+  background-color: rgb(62, 152, 92);
   color: white;
   width: 5rem;
 }
@@ -94,7 +94,7 @@
   border: none;
   padding: 0.4rem;
   border-radius: 6px;
-  background-color: rgb(47, 190, 95);
+  background-color: rgb(62, 152, 92);
   color: white;
   width: 5rem;
 }
@@ -102,7 +102,7 @@
   border: none;
   padding: 0.4rem;
   border-radius: 6px;
-  background-color: rgb(47, 190, 95);
+  background-color: rgb(62, 152, 92);
   color: white;
   width: 5rem;
 }
@@ -341,7 +341,7 @@
 .home__form--button {
   margin: 1rem 0px;
   border: none;
-  background: rgb(47, 190, 95);
+  background: rgb(62, 152, 92);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -391,7 +391,7 @@
 .about__text--button {
   margin: 1rem 0px;
   border: none;
-  background: rgb(47, 190, 95);
+  background: rgb(62, 152, 92);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -438,7 +438,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: rgb(47, 190, 95);
+  color: rgb(62, 152, 92);
 }
 .destination__group {
   width: 100%;
@@ -538,7 +538,7 @@
 .guide__text--button {
   margin: 1rem 0px;
   border: none;
-  background: rgb(47, 190, 95);
+  background: rgb(62, 152, 92);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
