@@ -68,6 +68,113 @@
   justify-content: center;
   align-items: center;
 }
+.home__image {
+  height: 500px;
+  width: 45%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../assets/image1.png");
+}
+.home__form {
+  width: 45%;
+}
+.home__form h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 80px;
+  color: #202336;
+}
+.home__form h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 27px;
+  color: #202336;
+}
+.home__form hr {
+  width: 2rem;
+  border: 1px solid;
+}
+.home__form form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+}
+.home__form form select {
+  width: 48%;
+  height: 2.3rem;
+  border: 0.8px solid;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: auto;
+  color: #4a4c53;
+}
+.home__form--button {
+  margin: 1rem 0px;
+  border: none;
+  background: #fb8f1d;
+  border-radius: 8px;
+  width: 90px;
+  height: 30px;
+  color: #ffffff;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 90%;
+  gap: 3rem;
+}
+.about__image {
+  height: 500px;
+  width: 45%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../assets/image2.png");
+}
+.about_-text {
+  width: 45%;
+}
+.about_-text--header {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 50px;
+  color: #000000;
+}
+.about_-text--parapraph {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: rgb(125, 121, 135);
+}
+.about_-text--button {
+  margin: 1rem 0px;
+  border: none;
+  background: #fb8f1d;
+  border-radius: 8px;
+  width: 35%;
+  height: 30px;
+  color: #ffffff;
+}
 
 body {
   background-color: #ffffff;

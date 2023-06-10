@@ -13,3 +13,27 @@
   font-size: $size;
   line-height: $height;
 }
+
+@mixin bgImage($height, $width, $url) {
+  height: 500px;
+  width: 45%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url($url);
+}
+
+@mixin btnMix($width) {
+  margin: 1rem 0px;
+  border: none;
+  background: $btnColor;
+  border-radius: 8px;
+  //   font-family: Inter;
+  //   font-style: normal;
+  //   font-weight: 500;
+  //   font-size: 0.9rem;
+
+  width: $width;
+  height: 30px;
+  color: $mainColor;
+}
