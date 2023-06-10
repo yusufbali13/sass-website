@@ -1,8 +1,9 @@
+// main
 @import "./base/reset";
-@import "./abstracts/variables", "./abstracts/mixin";
+@import "./abstracts/_variables.scss", "./abstracts/mixin"; //değişkenlerim ve fonksiyonlarım
 
+// import sırası önemlidir. Ortak olan dosylara her yerden erişim sağlayabilmemiz i,çin öncelikle ortak dosyları import etmemiz gerekiyor.
 @import "./components/footer", "./components/navbar", "./components/responsive";
-
 @import "./sections/home", "./sections/about", "./sections/destination",
   "./sections/guide";
 
