@@ -64,6 +64,9 @@
   width: 90%;
   min-height: 40vh;
   gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {

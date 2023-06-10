@@ -3,4 +3,5 @@
   width: 90%;
   min-height: 40vh;
   gap: 2rem;
+  @include flexMix(flex);
 }
