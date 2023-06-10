@@ -176,6 +176,96 @@
   color: #ffffff;
 }
 
+.destination {
+  margin: 6rem auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  gap: 2rem;
+}
+.destination__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.destination__header h3 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: auto;
+  color: #000000;
+}
+.destination__header button {
+  background-color: #ffffff;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fb8f1d;
+}
+.destination__group {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+.destination__card {
+  width: 22%;
+  height: 325px;
+  position: relative;
+  overflow: hidden;
+  background: #c4c4c4;
+  border-radius: 8px;
+}
+.destination__card img {
+  width: 100%;
+  height: 100%;
+  transition: all 2s;
+  cursor: zoom-in;
+}
+.destination__card img:hover {
+  transform: scale(1.1);
+}
+.destination__card p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 0px 6px 0px 0px;
+}
+.destination__card p span:nth-child(odd) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: auto;
+  color: #042521;
+}
+.destination__card p span:nth-child(even) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.7rem;
+  line-height: auto;
+  color: #80918e;
+}
+
 body {
   background-color: #ffffff;
   position: relative;
