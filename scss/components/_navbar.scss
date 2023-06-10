@@ -6,6 +6,7 @@
   // align-items: center;
   // bu yorum satırı css dosyasına gitmez
   /* bu yorum satırı css dosyasına gelir*/
+  background-color: darkslategray;
   @include flexMix(
     flex,
     space-between
@@ -27,36 +28,36 @@
       padding-right: 0.5rem;
     }
     &--home {
-      color: $headerColor;
       border: none;
-      background-color: $mainColor;
-      //   font-family: Inter;
-      //   font-style: normal;
-      //   font-weight: 500;
-      //   font-size: 1rem;
-      //   line-height: 19px;
-      //uzun uzun her seferinde yazmak yerine mixin olarak tanımladık
-      @include fontMix(Inter, normal, 500, 1rem, 19px);
-    }
-    &--disabled {
-      // @include fontMix(Inter,normal,400,1rem,19px);
-      @extend .header__links--home; // extend işlemi yaparken uzun adı yazıyoruz.aynı özellikleri extend edip değiştireceklerimiz veya ekleyeceklerimizi tekrar yazıyoruz.
-      color: #b8becd;
-      font-weight: 400;
-    }
-    &--login {
-      background-color: $mainColor;
-      border: 1px solid $btnBorderColor;
-      border-radius: 8px;
-      @include fontMix(Inter, normal, 500, 1rem, 30px);
-      color: $btnColor;
-      width: 90px;
-    }
-    &--register {
-      @extend .header__links--login;
-      border: none;
+      padding: 0.4rem;
+      border-radius: 6px;
       background-color: $btnColor;
       color: $mainColor;
+      width: 5rem;
+    }
+    &--disabled {
+      border: none;
+      padding: 0.4rem;
+      border-radius: 6px;
+      background-color: $btnColor;
+      color: $mainColor;
+      width: 5rem;
+    }
+    &--login {
+      border: none;
+      padding: 0.4rem;
+      border-radius: 6px;
+      background-color: $btnColor;
+      color: $mainColor;
+      width: 5rem;
+    }
+    &--register {
+      border: none;
+      padding: 0.4rem;
+      border-radius: 6px;
+      background-color: $btnColor;
+      color: $mainColor;
+      width: 5rem;
     }
   }
 }

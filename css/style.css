@@ -20,39 +20,40 @@
   transition: color 1s;
 }
 .footer__icons .social1:hover {
-  color: #fb8f1d;
+  color: rgb(47, 190, 95);
 }
 .footer__icons .social2 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social2:hover {
-  color: #fb8f1d;
+  color: rgb(47, 190, 95);
 }
 .footer__icons .social3 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social3:hover {
-  color: #fb8f1d;
+  color: rgb(47, 190, 95);
 }
 .footer__icons .social4 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social4:hover {
-  color: #fb8f1d;
+  color: rgb(47, 190, 95);
 }
 .footer__icons .social5 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social5:hover {
-  color: #fb8f1d;
+  color: rgb(47, 190, 95);
 }
 
 .header {
   /* bu yorum satırı css dosyasına gelir*/
+  background-color: darkslategray;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,38 +74,37 @@
 .header__links li {
   padding-right: 0.5rem;
 }
-.header__links--home,
-.header__links--disabled {
-  color: #202336;
+.header__links--home {
   border: none;
-  background-color: #ffffff;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 19px;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: rgb(47, 190, 95);
+  color: white;
+  width: 5rem;
 }
 .header__links--disabled {
-  color: #b8becd;
-  font-weight: 400;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: rgb(47, 190, 95);
+  color: white;
+  width: 5rem;
 }
-.header__links--login,
-.header__links--register {
-  background-color: #ffffff;
-  border: 1px solid #fb8f1d;
-  border-radius: 8px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 30px;
-  color: #fb8f1d;
-  width: 90px;
+.header__links--login {
+  border: none;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: rgb(47, 190, 95);
+  color: white;
+  width: 5rem;
 }
 .header__links--register {
   border: none;
-  background-color: #fb8f1d;
-  color: #ffffff;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: rgb(47, 190, 95);
+  color: white;
+  width: 5rem;
 }
 
 @media only screen and (max-width: 429px) {
@@ -341,7 +341,7 @@
 .home__form--button {
   margin: 1rem 0px;
   border: none;
-  background: #fb8f1d;
+  background: rgb(47, 190, 95);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -350,7 +350,7 @@
   line-height: auto;
   width: 90px;
   height: 30px;
-  color: #ffffff;
+  color: white;
 }
 
 .about {
@@ -391,7 +391,7 @@
 .about__text--button {
   margin: 1rem 0px;
   border: none;
-  background: #fb8f1d;
+  background: rgb(47, 190, 95);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -400,7 +400,7 @@
   line-height: auto;
   width: 35%;
   height: 30px;
-  color: #ffffff;
+  color: white;
 }
 
 .destination {
@@ -428,7 +428,7 @@
   color: #000000;
 }
 .destination__header button {
-  background-color: #ffffff;
+  background-color: white;
   border: none;
   font-family: "Inter";
   font-style: normal;
@@ -438,7 +438,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #fb8f1d;
+  color: rgb(47, 190, 95);
 }
 .destination__group {
   width: 100%;
@@ -473,7 +473,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 0px 6px 0px 0px;
 }
 .destination__card p span:nth-child(odd) {
@@ -538,7 +538,7 @@
 .guide__text--button {
   margin: 1rem 0px;
   border: none;
-  background: #fb8f1d;
+  background: rgb(47, 190, 95);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -547,12 +547,12 @@
   line-height: auto;
   width: 40%;
   height: 30px;
-  color: #ffffff;
+  color: white;
 }
 
 body {
-  background-color: #ffffff;
   position: relative;
+  background-color: rgba(221, 238, 221, 0.9333333333);
 }
 
 button,
