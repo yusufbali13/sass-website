@@ -6,6 +6,38 @@
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+}
+.header i {
+  display: none;
+}
+.header__logo {
+  width: 50px;
+  height: 50px;
+}
+.header__links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.header__links li {
+  padding-right: 0.5rem;
+}
+.header__links--home {
+  color: #202336;
+  border: none;
+  background-color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+}
+
 body {
   background-color: #ffffff;
   position: relative;

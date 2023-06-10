@@ -1,1 +1,15 @@
 // mixin
+
+@mixin flexMix($d, $j: center) {
+  display: $d;
+  justify-content: $j;
+  align-items: center;
+}
+
+@mixin fontMix($family, $style, $weight, $size, $height) {
+  font-family: $family;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+}
